@@ -45,5 +45,16 @@ In `config/routes.js` modify the default root route to:
 Now `sails lift` and you should see the index page styled by bootstrap.
 
 Head over to `views/layout.ejs` and add a navbar and footer to your base template.
+
+## 2b-styling
+
+Additional styling. 
+* `bower install jquery` . 
+* Modify `tasks/pipeline.js` to load `jquery.js`
+* Create a new `styles/custom.less` file to modify things to your liking 
+* Add a reference to your custom.less file to `assets/styles/importer.less`
+
+
+
     
 
