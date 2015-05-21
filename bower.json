@@ -1,0 +1,21 @@
+{
+  "name": "sailscast-activityOverlord",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aowongster/sailscast-activityOverlord",
+  "authors": [
+    "aomacbook <aowongster@gmail.com>"
+  ],
+  "description": "sailscast tutorial",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
