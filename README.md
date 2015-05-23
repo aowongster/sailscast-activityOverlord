@@ -1,4 +1,4 @@
-# sailscast-activtyOverlord
+# sailscast-activityOverlord
 
 a [Sails](http://sailsjs.org) application
 
@@ -53,6 +53,14 @@ Additional styling.
 * Modify `tasks/pipeline.js` to load `jquery.js`
 * Create a new `styles/custom.less` file to modify things to your liking 
 * Add a reference to your custom.less file to `assets/styles/importer.less`
+
+## 3-user
+
+* `sails generate api user`
+* fill out `api/models/User.js` with the fields you want
+* create new folder `views/user/new.js` and put form markup there
+* create new `new` function in `api/controllers/UserController.js` to register blueprint route
+* add form css to `assets/styles/custom.less`
 
 
 
